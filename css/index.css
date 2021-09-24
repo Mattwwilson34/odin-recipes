@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe-list {
+    list-style: none;
+}
+
+.recipe a,
+.recipe a:visited {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.recipe a:hover {
+    color: blue;
+}
